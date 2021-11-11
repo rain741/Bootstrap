@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+
+    <title>09-Bootstrap</title>
+  </head>
+  <!-- Start Nav -->
+  <body class="bg-warning bg-opacity-25">
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand text-white" href="#">Catalog</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active text-white" aria-current="page" href="#"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active text-white" aria-current="page" href="#"
+                  >Cars</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Contact Us</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-warning" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- NavFinish -->
+
+    <!-- Start carousel -->
+    <div class="container w-50 p-3 mt-5 mb-5">
+      <div class="carousel border-light">
+        <div
+          id="carouselExampleSlidesOnly"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="https://cdn.luxatic.com/wp-content/uploads/2018/01/Lamborghini-Huracan-Performante-Spyder-2.jpg"
+                class="d-block w-100"
+                alt="img.baksobiasa"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="https://cdn.motor1.com/images/mgl/7xNMo/s3/bulletproof-ferrari-458-speciale-by-addarmor-front-view.webp"
+                class="d-block w-100"
+                alt="img.baksomercon"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="https://th.bing.com/th/id/OIP.6k6fxl1QzHlARCp2qHhVKgHaEK?pid=ImgDet&rs=1"
+                class="d-block w-100"
+                alt="img.baksotulang"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="https://th.bing.com/th/id/OIP.8MzHucZBGDViiPcmxo_LcgHaFj?pid=ImgDet&w=1500&h=1125&rs=1"
+                class="d-block w-100"
+                alt="img.baksoberanak"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Finish carousel -->
+
+    <!-- Start Content -->
+    <div class="container -fluid">
+      <div class="row align-items-center">
+        <!-- <div class="col"> -->
+        <div class="content">
+          <h3 class="text-center"> CARS SPORT</h3>
+        <!-- card1 -->
+        <div class="row row-cols-1 row-cols-md-2 g-4 mt-2 w-70">
+          <div class="col">
+            <div class="card">
+              <img src="https://cdn.luxatic.com/wp-content/uploads/2018/01/Lamborghini-Huracan-Performante-Spyder-2.jpg" alt="img.Lamborghini-Huracan-" />
+              <div class="card-body">
+                <h5 class="card-title text-danger">Lamborghini-Huracan</h5>
+                <p class="card-text text-dark">Satu kata untuk menggambarkan harga mobil Lamborghini di Indonesia, yakni “Fantastis”. Yah, harga mobil sport asal Italia tersebut memang sangat mahal. kita harus mengeluarkan uang melebihi 8 Miliar Rupiah untuk membeli varian terbaru Lamborghini. Dengan harga semahal itu, maka tak salah apabila rata-rata mobil Lamborghini masuk ke dalam daftar mobil termahal di dunia.</p>
+                <p class="card-text text-dark">Rp 14.9 Miliar</p>
+                <a href="#" class="btn btn-warning">Pesan</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card2 -->
+          <div class="col">
+            <div class="card">
+              <img src="https://cdn.motor1.com/images/mgl/7xNMo/s3/bulletproof-ferrari-458-speciale-by-addarmor-front-view.webp" alt="Ferarry-485" />
+              <div class="card-body">
+                <h5 class="card-title text-danger">Ferarry 485</h5>
+                <p class="card-text text-dark">
+                  Saat ini Ferrari mengandalkan Portofino untuk bersaing di pasar mobil sport tanah air. Mobil tersebut dibekali mesin 3.9 Liter V8 Twin Turbo yang sanggup memuntahkan tenaga sebesar 591 Horsepower dan torsi 560 Nm. Mesinnya sangat powerfull, namun tetap nyaman digunakan sebagai kendaraan harian. Untuk membeli mobil sport tersebut kita harus menggelontorkan uang hingga sebesar 9.5 Miliar.
+                </p>
+                <p class="card-text text-dark">
+                  Rp 12 Miliar,-
+                </p>
+
+                <a href="#" class="btn btn-warning">Pesan</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="col">
+            <div class="card">
+              <img src="https://th.bing.com/th/id/OIP.6k6fxl1QzHlARCp2qHhVKgHaEK?pid=ImgDet&rs=1" alt="img.Porsche-Cayman-718" />
+              <div class="card-body">
+                <h5 class="card-title text-danger">Porsche Cayman 718</h5>
+                <p class="card-text text-dark">Seperti yang masbro lihat di atas, harga mobil sport Porsche tergolong terjangkau dibandingkan Ferrari maupun Lamborghini. Walaupun lebih murah, namun kualitas mobil asal Jerman tersebut tak bisa dipandang sebelah mata. Porsche selalu merancang produknya dengan desain eksotis dan mesin bertenaga besar yang menjadikannya mampu bersaing melawan mobil sport asal Eropa lainnya.</p>
+                <p class="card-text text-dark">Rp 2.1 Miliar</p>
+                <a href="#" class="btn btn-warning">Pesan</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card4 -->
+          <div class="col">
+            <div class="card">
+              <img src="https://th.bing.com/th/id/OIP.8MzHucZBGDViiPcmxo_LcgHaFj?pid=ImgDet&w=1500&h=1125&rs=1" alt="img.Maserati-GranCabrio-V8" />
+              <div class="card-body">
+                <h5 class="card-title text-danger">Maserati GranCabrio V8</h5>
+                <p class="card-text text-dark">Apabila mencari mobil sport Maserati terbaik di Indonesia, maka jawabannya adalah Maserati GranCabrio V8. Mobil ini memiliki atap terbuka yang menjadikan desainnya semakin menakjubkan. Tenaga dan performa mobil sport tersebut juga luar biasa. Dimana jantung pacunya ditenagai mesin V8 berkapasitas 4.691cc yang sanggup memproduksi tenaga hingga sebesar 450 Horsepower dan torsi 510 Nm.</p>
+                <p class="card-text text-dark">Rp. 2 Milyar</p>
+                <a href="#" class="btn btn-warning">Pesan</a>
+              </div>
+            </div>
+          </div>
+          <!-- finish Content -->
+
+          <!-- </div> -->
+          <!-- </div> -->
+        </div>
+      </div>
+    </div>
+
+    <!-- Script Bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+      integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+      integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,46 @@
+Apa itu CSS Framework?
+Jawab :
+Pengertian Framework : framework ini diambil dari bahasa Inggris frame dan work yang artinya kerangka kerja. Secara harfiah bisa diartikan kalau framework ini adalah kerangka kerja yang biasa digunakan oleh para web developer pada saat mereka sedang mengembangkan sebuah web.
+Pengertian CSS : Sedangkan CSS atau cascading style sheet adalah sebuah bahasa pemrograman komputer yang berfungsi untuk memperindah tampilan website menjadi jauh lebih indah dan menarik.
+Pengertian CSS Framework : CSS Framework bisa diartikan sebagai sebuah kerangka kerja yang biasa digunakan oleh para developer untuk memudahkan proses coding CSS pada website agar lebih terstruktur dan rapi.
+
+Apakah bootstrap satu-satunya CSS Framework yang dapat kita gunakan?
+Jawab : TIDAK
+
+Sebutkan beberapa CSS Framework selain Bootstrap
+Jawab :
+- Foundation
+- Bulma
+- Semantic UI
+- UIKit
+- Materialize CSS
+- Milligram
+- PureCSS
+- Skeleton
+- Tailwind
+
+Bagaimana tata cara penggunaan Bootstrap?
+Jawab :
+Cara Menggunakan Bootstrap 5
+1. Sebelum mulai menggunakan Bootstrap 5, persiapkan terlebih dahulu tools apa saja yang dibutuhkan untuk mulai menjalankan Bootstrap 5.
+- Text Editor
+Tools pertama yang dibutuhkan untuk menggunakan Bootstrap 5 adalah text editor yang nantinya akan kita gunakan untuk menulis kode program. Teks editor seperti VS Code, Sublime, Notepad++, Atom, dll.
+- Web Browser
+Tools yang kedua adalah web browser yang nantinya akan gunakan untuk melihat hasil dari kode program yang sudah ditulis. Dan web browser yang bisa gunakan seperti Google Chrome, Mozilla Firefox, Opera ataupun Safari.
+2. Bootstrap Versi 5
+Ada beberapa cara yang bisa digunakan untuk menggunakan Bootstrap versi 5 antara lain :
+- Memanfaatkan CDN.
+Memanfaatkan CDN Untuk Bootstrap
+CDN (Content Delivery Network) merupakan sebuah server yang tersebar di seluruh dunia yang digunakan untuk mengantarkan konten secara cepat dan juga optimal.
+Menggunakan CDN untuk Bootstrap memang merupakan cara yang paling mudah untuk dilakukan, hal tersebut karena kita hanya perlu mengcopy link CDN Bootstrapnya saja untuk selanjutnya kita taruh pada kode HTML.
+tambahkan baris kode dibawah ini tepat didalam tag <head> pada halaman HTML :
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+Selanjutnya load CDN Javascript didalam tag<body> pada halaman HTML yang kita buat dengan perintah seperti dibawah ini :
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+   integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+   crossorigin="anonymous"></script>
+
+- Mendownload File Bootstrap 5 Secara Manual :
+Selain menggunakan CDN, kita juga bisa mendownload Bootstrap 5 langsung melalui situs webnya yang beralamat di www.getbootstrap.com dan didalam website resminya tersebut tersedia tombol Download untuk mendownload file Bootstrap.
